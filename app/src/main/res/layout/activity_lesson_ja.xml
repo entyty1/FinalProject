@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".ProgLanguagesNames.Lessons.LessonJa">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:padding="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="570sp">
+
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/textDark"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:textColor="@color/black"
+            android:layout_height="fill_parent"
+            android:text="@string/lessonja_1" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkja1"
+        android:textColor="@color/black"
+        android:text="@string/lessonjalink1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

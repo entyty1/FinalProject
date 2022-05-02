@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.globalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ProgHub"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GlobalProject">
+        <activity
+            android:name=".ProgLanguagesNames.Lessons.LessonC"
+            android:exported="false" />
+        <activity
+            android:name=".ProgLanguagesNames.Lessons.LessonJa"
+            android:exported="false" />
+        <activity
+            android:name=".ProgLanguagesNames.Lessons.LessonsPy"
+            android:exported="false" />
+        <activity
+            android:name=".ProgLanguagesNames.C"
+            android:exported="false"
+            android:label="C++" />
+        <activity
+            android:name=".ProgLanguagesNames.Java"
+            android:exported="false"
+            android:label="Java" />
+        <activity
+            android:name=".ProgLanguagesNames.Python"
+            android:exported="false"
+            android:label="Python" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="ProgHub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
